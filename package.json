@@ -1,0 +1,33 @@
+{
+  "name": "outliner",
+  "version": "0.1.0",
+  "description": "Create outlines from HTML Headings",
+  "main": "outliner.js",
+  "type": "module",
+  "scripts": {
+    "test": "c8 tape test/test.js",
+    "coverage": "c8 --reporter=html report",
+    "coveralls": "c8 --reporter=text-lcov report | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganConrad/outliner.git"
+  },
+  "keywords": [
+    "outline",
+    "headers",
+    "toc",
+    "table of contents"
+  ],
+  "author": "Morgan Conrad <flyingspaniel@gmail.com> (http://flyingspaniel.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "tape": "^5.3",
+    "c8": "^7.10.0",
+    "coveralls": "^3.1.1"
+  },
+  "files": []
+}
